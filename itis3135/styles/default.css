@@ -1,0 +1,21 @@
+body{
+    background-color:#9f7d75;
+}
+nav > a{
+    color:antiquewhite
+}
+.intro{
+    text-align:center;
+    font-size:45px
+}
+.profilePic{
+display: block;
+margin:auto;
+}
+figcaption{
+    text-align:center;
+    font-style: italic;
+}
+.about{
+    font-size:25px;
+}
