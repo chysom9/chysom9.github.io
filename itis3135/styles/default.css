@@ -19,3 +19,22 @@ figcaption{
 .about{
     font-size:25px;
 }
+
+
+table{
+    text-align: left;
+    
+
+}
+table tr:nth-child(even){
+    background-color:#777;
+}
+table tr:nth-child(odd){
+background-color:#7776;
+}
+td{
+    padding-right:2pc;
+}
+th{
+    background-color:#3456
+}
