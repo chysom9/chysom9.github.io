@@ -1,5 +1,7 @@
 body{
-    background-color:#9f7d75;
+    background-color:rgb(146, 96, 96)
+    
+    
 }
 nav > a{
     color:antiquewhite
@@ -37,4 +39,36 @@ td{
 }
 th{
     background-color:#3456
+}
+fieldset{
+    background-color: white;
+    display:block;
+    align-content: baseline;
+    margin-right:1090px;
+
+
+}
+form a{
+    color: black;
+}
+label{
+    display:block;
+    margin:0.5rem 0;
+    
+}
+fieldset{
+    
+}
+form button{
+    display:block;
+}
+
+form button{
+    background-color: rgba(10, 83, 49, 0.911);
+    height:20px;
+    width: 70px;
+    color:white;
+    text-align:left;
+
+
 }
