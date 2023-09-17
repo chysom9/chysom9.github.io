@@ -1,14 +1,30 @@
 body{
-    background-color:rgb(146, 96, 96)
+    background-color:rgb(146, 96, 96);
+    padding-left:15px;
     
     
+
 }
+header{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+
+main h2{
+    text-align: center;
+}
+
 nav > a{
     color:antiquewhite
 }
 .intro{
     text-align:center;
     font-size:45px
+}
+a{
+    color:antiquewhite
 }
 .profilePic{
 display: block;
