@@ -1,5 +1,13 @@
 body{
-    background-color:rgb(146, 96, 96);
+    background:radial-gradient(#C7A9B6,#7B5164);
+        /* to bottom,
+        #C7A9B6,
+        #B690A1,
+        #A6778B,
+        #7B5164
+    ); */
+       
+       height:100vh;
     padding-left:15px;
     
     
@@ -72,9 +80,8 @@ label{
     margin:0.5rem 0;
     
 }
-fieldset{
-    
-}
+
+
 form button{
     display:block;
 }
