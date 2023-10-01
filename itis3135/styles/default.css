@@ -13,6 +13,9 @@ body{
     
 
 }
+main div {
+    margin-left: 30%;
+}
 header{
     text-align: center;
 }
