@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles/default.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHI NWOSUs'Nifty Cheetah || ITIS3135||Byo Intro</title>
+</head>
+
+<body>
+
+    <header>
+        <div data-include="compontents/header.html">
+        </div>
+    </header>
+    <main id="main">
+        <h2>Byo Intro</h2>
+        <h3>Time to BYO intro page, please fill out the form below so we can create your own page</h3>
+        <form id="survey" onsubmit="generateForm()" action="#">
+            <!-- Name -->
+            <label for="name">Name</label>
+            <input required id="name" type="text">
+
+            <!-- Mascot -->
+            <label for="mascot">Mascot</label>
+            <input required id="mascot" type="text">
+
+            <!-- Image -->
+            <label for="image">Image</label>
+            <input required id="image" type="file">
+
+            <!-- Image Caption -->
+            <label for="caption">Image Caption</label>
+            <input required id="caption" type="text">
+
+            <!-- Personal Background -->
+            <label for="personal_background">Personal Background</label>
+            <input required id="personal_background" type="text">
+
+            <!-- Professional Background-->
+            <label for="professional_background">Professional Background</label>
+            <input required id="professional_background" type="text">
+
+            <!-- Academic Backround -->
+            <label for="academic_background">Academic Background</label>
+            <input required id="academic_background" type="text">
+
+            <!-- Background in Web Development -->
+            <label for="background">Background in Web Development</label>
+            <input required id="background" type="text">
+
+            <!-- Primary Computer Platform-->
+            <label for="platform">Primary Computer Platform</label>
+            <input required id="platform" type="text">
+
+            <!-- Course Currently Taking-->
+            <label for="courses">Courses Currently Taking:</label>
+            <div id="course_block">
+                <div>
+                    <input required id="courses" type="text">
+                    <button id ="delete">Delete</button>
+                </div>
+                
+            </div>
+            <button onclick="addCourse();" id="add">Add</button>
+
+            <!-- Funny Things -->
+            <label for="funny">Funny thing?</label>
+            <textarea placeholder="Optional" id="funny" type="text"></textarea>
+
+            <!-- Anything Else -->
+            <label for="other">Anything else?</label>
+            <textarea placeholder="Optional" id="other" type="text"></textarea>
+
+            <br>
+            <p><input required type="checkbox">I understand that what is on this page is not password protected and I
+                will not put anything here that I do not want publicly available.</p>
+
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </form>
+
+
+
+    </main>
+    <footer>
+        <nav>
+            <a href="https://webpages.charlotte.edu/cnwosu2/">UNCC Webspace</a>
+            ||
+            <a href="https://github.com/chysom9/">Github</a>
+            ||
+            <a href="https://chysom9.github.io/">Github.io</a>
+            ||
+            <a href="https://www.freecodecamp.org/chysom9">freecodecamp</a>
+            ||
+            <a href="https://www.codecademy.com/profiles/chysom9">CodeCademy</a>
+            ||
+            <a href="https://www.linkedin.com/in/chisom-n/">Linkedin</a>
+        </nav>
+        <p> page Designed by <a href="theslap.network/">NwosRadioSlap</a> © - 2023</p>
+        <a href="https://validator.w3.org/check?uri=referer"><img style="border:0;width:88px;height:31px"
+                src="https://upload.wikimedia.org/wikipedia/commons/b/bb/W3C_HTML5_certified.png" alt="Valid HTML!"></a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid
+                    CSS!">
+        </a>
+
+    </footer>
+    <script src="scripts/HTMLInclude.min.js">
+    </script>
+    <script src="scripts/survey.js"></script>
+</body>
+
+</html>

@@ -1,100 +1,172 @@
-body{
+body {
     background:radial-gradient(#C7A9B6,#7B5164);
-        /* to bottom,
-        #C7A9B6,
-        #B690A1,
-        #A6778B,
-        #7B5164
-    ); */
+       
        
        height:100vh;
     padding-left:15px;
-    
-    
-
-}
-main div {
-    margin-left: 30%;
-}
-header{
+  }
+   
+   footer {
+    position: relative;
+    bottom: 0;
     text-align: center;
-}
-footer{
-    text-align: center;
-}
-
-main h2{
-    text-align: center;
-}
-
-nav > a{
-    color:antiquewhite
-}
-.intro{
-    text-align:center;
-    font-size:45px
-}
-a{
-    color:antiquewhite
-}
-.profilePic{
-display: block;
-margin:auto;
-}
-figcaption{
-    text-align:center;
-    font-style: italic;
-}
-.about{
-    font-size:25px;
-}
-
-
-table{
-    text-align: left;
-    
-
-}
-table tr:nth-child(even){
-    background-color:#777;
-}
-table tr:nth-child(odd){
-background-color:#7776;
-}
-td{
-    padding-right:2pc;
-}
-th{
-    background-color:#3456
-}
-fieldset{
-    background-color: white;
-    display:block;
-    align-content: baseline;
-    margin-right:1090px;
-
-
-}
-form a{
+    padding: 20px;
+    margin: 0;
+    font-size: 24px; 
+    width: 100%; 
+    margin-top: 60px;
+  }
+  
+  footer nav a {
+    display: inline-block;
+    padding: 10px; 
+    margin: 0 10px; 
+    background-color: rgba(162, 108, 108, 0.3); 
+    border-radius: 10px; 
     color: black;
-}
-label{
-    display:block;
-    margin:0.5rem 0;
-    
-}
+    text-decoration: none;
+    transition: background-color 1s, color 1s;  
+  }
+  
+  footer nav a:hover {
+    background-color: #666; 
+    color: white; 
+  }
+  
+  
 
+  
+  select {
+    width: 100%; 
+  }
+  form {
+    margin: 20px;
+    text-align: left;
+  }
 
-form button{
-    display:block;
-}
-
-form button{
-    background-color: rgba(10, 83, 49, 0.911);
-    height:20px;
-    width: 70px;
-    color:white;
-    text-align:left;
-
-
-}
+  label {
+    font-weight: bold; 
+    color: black;
+    display: block;
+    margin-bottom: 10px;
+  }
+ 
+  
+ 
+  
+  ol {
+    text-align: left;
+    display: inline-block;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ol li {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%; 
+    margin: 0 auto; 
+  }
+  
+  .table-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f2f2f2; 
+    color: black;
+  }
+  
+  
+  ul li {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size:large;
+  }
+  .image-container {
+    background-color: #ccc; 
+    padding: 20px; 
+    border: 2px solid #a52323; 
+    border-radius: 10px; 
+    margin: 20px 0; 
+  } header {
+    color: #161414; 
+    text-align:center;
+    padding: 20px;
+    margin: 0;
+    font-size: 22px;
+    width: 100%; 
+  }
+  
+  
+  header nav a {
+    display: inline-block;
+    padding: 10px; 
+    margin: 0 5px; 
+    background-color: rgba(162, 108, 108, 0.3); 
+    border-radius: 10px; 
+    color: rgb(7, 1, 1);
+    text-decoration: none;
+    transition: background-color 1s, color 1s; 
+  }
+  
+  
+  header nav a:hover {
+    background-color: #7d3737; 
+    color: white; 
+  }
+  
+  
+  main {
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    flex-grow: 1;
+    color: white;
+  }
+  
+  
+  
+  .image-container figure {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .image-container figcaption {
+    font-weight: bold;
+    color: #666; 
+  }
+  #photo_caption{
+    font-style: italic;
+  }
+  a {
+    color: white; 
+    text-decoration: none; 
+  }
+  
+  .introduction-box {
+    background-color: #dedbd2b2;
+    border: 2px solid #4A5759;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+  }
+  
