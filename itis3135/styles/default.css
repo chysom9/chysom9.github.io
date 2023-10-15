@@ -50,7 +50,10 @@ body {
     display: block;
     margin-bottom: 10px;
   }
- 
+  ol.requirements ol {
+    list-style-type: decimal;
+    padding-left: 40px;
+  }
   
  
   
@@ -157,7 +160,7 @@ body {
   }
   a {
     color: white; 
-    text-decoration: none; 
+  
   }
   
   .introduction-box {
