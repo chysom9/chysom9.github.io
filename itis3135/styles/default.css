@@ -169,4 +169,27 @@ body {
     text-align: center;
     color: black;
   }
+  @media (min-width: 576px) {
+ 
+  body {
+    padding: 10px; 
+  }
+
+  footer {
+    margin-top: 30px;
+     font-size: 18px;
+  }
+
+  header {
+    font-size: 18px;
+  }
+
+  header nav a {
+    padding: 10px 15px; 
+  }
+  .image-container {
+    width: 50%; 
+    padding: 10px;
+  }
+}
   
