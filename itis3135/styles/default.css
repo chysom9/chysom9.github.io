@@ -195,4 +195,67 @@ body {
     padding: 10px;
   }
 }
-  
+*, *::before, *::after{
+  box-sizing:border-box;
+  font-family: sans-serif;
+  font-weight:normal;
+}  
+.calculator{
+  display:grid;
+  justify-content:center;
+  grid-template-columns:repeat(4,100px);
+  grid-template-rows:minmax(120px,auto) repeat(5,100px);
+  background-color:black;
+
+
+
+
+}
+
+.calculator > button{
+  cursor:pointer;
+  border:0;
+  color: white;
+  font-size: 35px;
+  border-radius:100px;
+  margin:2px;
+
+}
+.calculator button:not(.grey, .orange){
+  background-color: rgb(51, 51, 51);
+}
+.orange{
+  background-color:orange;
+}
+.grey{
+  background-color: grey;
+}
+.calculator > button:active{
+background-color: rgba(255,255,255,.9);
+}
+
+.span-two{
+  grid-column: span 2;
+}
+.output{
+  grid-column:1/-1;
+  background-color:black;
+  display:flex;
+  align-items:flex-end;
+  justify-content:space-between;
+  flex-direction:column;
+  padding:10px;
+  word-wrap: break-word;
+  word-break: break-all;
+
+}
+.output .previous-output{
+  color: white;
+  font-size:1.5rem;
+}
+.output .current-output{
+  color:white;
+  font-size:2.5rem;
+
+
+}
