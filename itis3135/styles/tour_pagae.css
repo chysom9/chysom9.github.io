@@ -1,0 +1,84 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.main-nav {
+    background-color: rgb(155, 155, 155);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px; /* Added unit (px) */
+    bottom: 10%; /* This might not work as intended */
+}
+
+a {
+    color: white;
+}
+
+.logo {
+    width: 40%;
+    border-radius: 40%;
+}
+
+.logo-box {
+    display: inline-block;
+    margin: 0;
+}
+
+.name {
+    color: white;
+    display: inline-block;
+    font-size: xx-large;
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+}
+
+
+
+.countries {
+    background: red;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px; /* Added unit (px) */
+    bottom: 10%; /* This might not work as intended */
+}
+
+li {
+    margin-bottom: 20px;
+    margin-left: -10px;
+}
+
+.carousel {
+    width: 80%; /* Adjust the width according to your design */
+    margin: 0 auto; /* Center the carousel */
+    position: relative;
+    overflow: hidden; /* Ensure the images are contained within the carousel */
+    height: 400px; /* Set an appropriate height for the carousel */
+}
+
+/* Rest of your existing CSS styles */
+
+.slide {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s ease; /* Add transition for a smooth effect */
+}
+
+.slide[data-active] {
+    opacity: 1;
+}
+
+.slide img {
+    width: 100%; /* Ensure the images cover the entire slide */
+    height: 100%; /* Ensure the images cover the entire slide */
+    object-fit: cover;
+    object-position: center;
+}
+.carousel-button{
+    position: absolute;
+    background: none;
+    border: none;
+    size: 4rem;
+    top: 50%;
+    z-index: 2;
+}
