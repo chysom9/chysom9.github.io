@@ -13,16 +13,31 @@
     </div>
         </header>
         <main>
-            <h2>Arrays</h2>
-            <Button id="addSalary">Add Salary</Button>
-            <Button id="displayResult">Display Result</Button>
-            <Button id="displaySalary">Display Salary</Button>
-            <select name="dropdown" id="dropdown">
-                <option value="Marcus">Marcus</option>
-                <option value="Chisom">Chisom</option>
-                <option value="Tobi">Tobi</option>
-                <option value="Aleena">Aleena</option>
-            </select>
+            <main>
+                <h1>Salary Tracker</h1>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" autofocus>
+                    <label for="salary">Salary:</label>
+                    <input type="text" id="salary">
+                    <button type="button" id="addButton">Add Salary</button>
+                </form>
+            
+                <h2>Employee Salaries</h2>
+                <table id="results_table">
+                    <tr>
+                        <th>Name</th>
+                        <th>Salary</th>
+                    </tr>
+                </table>
+            
+                <div id="results">
+                    <h2>Results</h2>
+                    <p>Average Salary: <span id="averageSalary">0</span></p>
+                    <p>Highest Salary: <span id="highestSalary">0</span></p>
+                </div>
+            
+            </main>
         </main>
         <footer>
             <nav>
