@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,900&display=swap" rel="stylesheet">
+    <script src="scripts/tour_page.js"> </script>
     
 </head>
 <body>
@@ -23,17 +24,16 @@
             <h3><a href="tourism_project.html">HOME</a></h3>
             <h3><a href="about.html">ABOUT</a></h3>
             <h3><a href="hours.html">HOURS</a></h3>
-            <h3><a href="locations.html">LOCATIONS</a></h3>
             <h3><a href="contact.html">CONTACT</a></h3>
         </div>
-        <div class="form">
+        <div id="field" class="form">
         <form class="contact" action="">
-            <input reaquired placeholder="First Name" type="text">
-            <input required placeholder="Last Name" type="text">
-            <input type="email" placeholder="Email" required>
-            <textarea required name="Message" id="" cols="30" rows="4">Enter text here...
+            <input id ="First_Name"reaquired placeholder="First Name" type="text">
+            <input id ="Last_Name" required placeholder="Last Name" type="text">
+            <input id="email" placeholder="Email" required>
+            <textarea required name="Message" cols="30" rows="4">Enter Message Here...
             </textarea>
-            <button action="submit">Submit</button>
+            <button id="send" onclick="showMessage();" action="submit">Send</button>
         </form>
     </div>
 

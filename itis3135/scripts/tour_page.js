@@ -28,3 +28,20 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
+
+function showMessage(){
+  let first = document.getElementById("First_Name").value
+  let last = document.getElementById("Last_Name").value
+  let email = document.getElementById("email").value
+  let field = document.getElementById("field")
+  field.innerHTML = ""
+  let response = document.createElement('p');
+  response.innerText = `Thank you for the Message ${first} ${last}, I will Make Sure to get to you through your email: ${email}`
+  response.className = "response"
+  field.append(response);
+  
+  
+
+
+  
+}

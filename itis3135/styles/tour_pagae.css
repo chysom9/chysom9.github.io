@@ -98,15 +98,18 @@ a {
   }
   .contact input,textarea{
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     background: none;
     color: white;
     border-style:solid;
-    border-color: gray;
-    height: 40px;
-    width: 800px;
+    border-color: white;
+    width: 40cm;
     font-size: 20px;
     border-width: 1px;
+    height: 60px;
+    margin-top: 90px;
+
+
     }
  
   
@@ -125,3 +128,44 @@ a {
   @media only screen and (max-width: 300px) {
     .text {font-size: 11px}
   }
+  table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 40px;
+      text-align: center;
+      color: white;
+      font-size: x-large;
+
+    }
+
+    th {
+      background-color: black;
+      color: whitesmoke
+    }
+
+    tr:nth-child(even) {
+      color: white;
+    }
+
+    tr:nth-child(odd ) {
+      background-color: red;
+      color: green;
+    }
+    form button{
+     height: 50px;
+     width: 150px;
+     font-size: x-large;
+     background: red;
+     border: none;
+     color:white;
+     border-radius: 8%;
+    }
+    .response{
+      color: white;
+      font-size: xx-large;
+    }
